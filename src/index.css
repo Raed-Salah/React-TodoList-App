@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: cornflowerblue;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  width: 60%;
+  margin : 10% auto;
+}
+
+.text-center{
+  text-align: center;
+}
+.todoitems{
+  background-color: white;
+  color: cornflowerblue;
+}
+
+.todoitems p{
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+  color: black;
+}
+.todoitems span{
+  display: inline-block;
+  text-align: center;
+  padding : 10px 0;
+  font-size: 20px;
+  border : 0.5px solid #ccc;
+}
+
+.todoitems span.title,
+.form_submit{
+  background-color:rgb(10, 10, 39);
+  color : white;
+}
+
+.form_submit{
+  cursor: pointer;
+}
+
+.todoitems span.name,
+.form_name{
+  width:60%;
+}
+
+.todoitems span.age,
+.form_age{
+  width:30%;
+}
+.todoitems span.action,
+.form_submit{
+  width:10%;
+}
+
+.todoitems span.icon{
+  color: red;
+  cursor: pointer;
+}
+
+form input {
+  padding: 10px 0;
+  background-color: white;
+  border: transparent;
+}
+
+.form_submit{
+  background-color:rgb(10, 10, 39);
+  color : white;
+}
